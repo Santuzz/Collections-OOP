@@ -1,5 +1,6 @@
 package exercises;
 
+import Collections.exercises.Maps;
 import org.junit.jupiter.api.Test;
 
 import java.util.*;

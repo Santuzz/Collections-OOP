@@ -1,5 +1,7 @@
 package exercises.mylist;
 
+import Collections.exercises.mylist.MyLinkedList;
+import Collections.exercises.mylist.MyList;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

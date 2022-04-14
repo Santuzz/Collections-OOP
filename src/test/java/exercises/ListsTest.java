@@ -1,5 +1,6 @@
 package exercises;
 
+import Collections.exercises.Lists;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

@@ -1,5 +1,6 @@
 package exercises;
 
+import Collections.exercises.Sets;
 import org.junit.jupiter.api.Test;
 
 import java.util.*;
@@ -62,7 +63,7 @@ public class SetsTest {
         assertEquals("d", Sets.firstRecurringCharacter("daddy"));
     }
 
-   /* @Test
+   @Test
     public void allRecurringChars() {
         assertEquals(Set.of('m', 'a'), Sets.allRecurringChars("mamma"));
         assertEquals(Set.of('d', 'e'), Sets.allRecurringChars("abcddee"));
@@ -92,5 +93,5 @@ public class SetsTest {
     public void getGreater() {
         TreeSet<Integer> t = new TreeSet<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7));
         assertEquals(6, Sets.getGreater(t, 5));
-    }*/
+    }
 }

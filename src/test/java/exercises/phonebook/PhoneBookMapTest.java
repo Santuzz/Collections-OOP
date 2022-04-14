@@ -1,6 +1,8 @@
 package exercises.phonebook;
 
-import utils.Student;
+import Collections.exercises.phonebook.PhoneBook;
+import Collections.exercises.phonebook.PhoneBookMap;
+import Collections.utils.Student;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

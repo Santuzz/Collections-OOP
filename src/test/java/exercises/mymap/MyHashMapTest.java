@@ -1,5 +1,7 @@
 package exercises.mymap;
 
+import Collections.exercises.mymap.MyHashMap;
+import Collections.exercises.mymap.MyMap;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

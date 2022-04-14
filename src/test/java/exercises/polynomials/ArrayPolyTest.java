@@ -1,5 +1,6 @@
 package exercises.polynomials;
 
+import Collections.exercises.polynomials.ArrayPoly;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

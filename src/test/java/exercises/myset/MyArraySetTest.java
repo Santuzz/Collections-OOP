@@ -1,5 +1,7 @@
 package exercises.myset;
 
+import Collections.exercises.myset.MyArraySet;
+import Collections.exercises.myset.MySet;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

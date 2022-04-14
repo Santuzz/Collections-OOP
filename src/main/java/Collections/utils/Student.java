@@ -1,9 +1,9 @@
-package utils;
+package Collections.utils;
 
 import java.io.Serializable;
 import java.util.Objects;
 
-public class Student implements Comparable<Collections.utils.Student>, Serializable {
+public class Student implements Comparable<Student>, Serializable {
     String name;
     String lastname;
     String phone;
@@ -63,11 +63,11 @@ public class Student implements Comparable<Collections.utils.Student>, Serializa
     }
 
     @Override
-    public int compareTo(Collections.utils.Student s) {
+    public int compareTo(Student s) {
         // Compare lastname first, and then name
-        int compare = lastname.compareTo(s.getLastname());
+        int compare = lastname.compareTo(s.lastname);
         if (compare == 0) {
-            compare = name.compareTo(s.getName());
+            compare = name.compareTo(s.name);
         }
         return compare;
     }
@@ -82,10 +82,10 @@ public class Student implements Comparable<Collections.utils.Student>, Serializa
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Student student = (Student) o;
-        return Double.compare(student.getAverage(), average) == 0 &&
-                Objects.equals(name, student.getName()) &&
-                Objects.equals(lastname, student.getLastname()) &&
-                Objects.equals(phone, student.getPhone());
+        return Double.compare(student.average, average) == 0 &&
+                Objects.equals(name, student.name) &&
+                Objects.equals(lastname, student.lastname) &&
+                Objects.equals(phone, student.phone);
     }
 
     @Override
